@@ -1,0 +1,42 @@
+body {
+    background:url(../images/7598163.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main {
+    width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center; height: 100vh;/* 뷰포트 안에서 가운데로 오게 할 수 있다. */
+}
+main .photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 10px solid #fff;}
+
+    main .photo img {
+        width: 100%;
+    }
+main h1 {
+    font-size: 1.5rem;
+}
+main .loading {}
+main .loading .bar {}
+main p {}
+main .sns {display: flex;}
+main .sns a {
+    width: 25px;
+}
+main .sns a img {    
+    width:100%;/* 부모에 크기를 입력하는 식으로 이미지 깨지지 않게 */
+}
+main .sns a .tip {}
+main .gnb {}
+main .gnb span {}
+main .gnb span:nth-child(1) {}
+main .gnb span:nth-child(2) {}
+main .gnb span:nth-child(3) {}
